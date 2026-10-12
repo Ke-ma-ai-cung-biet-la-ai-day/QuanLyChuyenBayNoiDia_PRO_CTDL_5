@@ -39,9 +39,6 @@ class ChuyenBay {
         void xoaVe(const std::string& maVe_);
         void xuat() const; 
 
-
-        //~Destructor
-
 };
 
 #endif
