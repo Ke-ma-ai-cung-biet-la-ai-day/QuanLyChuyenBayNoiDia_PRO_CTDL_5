@@ -2,17 +2,18 @@
 #include <iostream> 
 #include <string> 
 //Constructor - Minh Tien
-// KhachHang::KhachHang(){
-//     stt_ = -1; 
-//     cmnd_ = "";
-//     name_ = "";
-// }
 
-// KhachHang::KhachHang(int& stt, const std::string name, const std::string cmnd){
-//     stt_ = stt; 
-//     cmnd_ = cmnd; 
-//     name_ = name; 
-// }
+KhachHang::KhachHang() {
+    stt_ = -1;
+    cmnd_ = "";
+    name_ = "";
+}
+
+KhachHang::KhachHang(int& stt, const std::string name, const std::string cmnd) {
+    stt_ = stt;
+    cmnd_ = cmnd;
+    name_ = name;
+}
 
 //Getter/ setter - Mong Tien
 // std::string KhachHang::getCmnd() const {
