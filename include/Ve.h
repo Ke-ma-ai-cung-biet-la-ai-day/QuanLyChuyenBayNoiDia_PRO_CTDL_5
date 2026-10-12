@@ -16,7 +16,7 @@ class Ve {
     public: 
         //Constructor 
         Ve(); 
-        Ve(std::string maVe, std::string maChuyenBay, ChuyenBay* cb_, int soGhe, KhachHang khachHang); 
+        Ve(std::string maVe, std::string maChuyenBay, ChuyenBay* cb, int soGhe, KhachHang khachHang); 
 
         //Getter/ Setter
         std::string getMaVe() const; 
