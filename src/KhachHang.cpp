@@ -8,7 +8,7 @@
 //     name_ = "";
 // }
 
-// KhachHang::KhachHang(int& stt, const std::string name, const std::string cmnd){
+// KhachHang::KhachHang(const int &stt, const std::string &name, const std::string &cmnd){
 //     stt_ = stt; 
 //     cmnd_ = cmnd; 
 //     name_ = name; 
