@@ -16,7 +16,7 @@ class ChuyenBay {
     public: 
         //Constructor
         ChuyenBay(); 
-        ChuyenBay(const std::string maCB_,MayBay* mbChuyenBay_, const std::string soHieuMB_, const std::string ngayKH_, const std::string sanBD_,  int status_);
+        ChuyenBay(const std::string &maCB_,MayBay* mbChuyenBay_, const std::string &soHieuMB_, const std::string &ngayKH_, const std::string &sanBD_,  const int &status_);
 
         //getter/ setter
         std::string getMaCB() const; 

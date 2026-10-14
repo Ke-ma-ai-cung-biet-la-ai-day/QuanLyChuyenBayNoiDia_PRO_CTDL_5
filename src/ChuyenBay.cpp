@@ -13,8 +13,8 @@ ChuyenBay::ChuyenBay() {
     trangThai_ = -1;
 }
 
-ChuyenBay::ChuyenBay(const std::string maCB_, MayBay* mbChuyenBay_, 
-const std::string soHieuMB_, const std::string ngayKH_, const std::string sanBD_, int status_) {
+ChuyenBay::ChuyenBay(const std::string& maCB_, MayBay* mbChuyenBay_, const std::string& soHieuMB_, 
+const std::string& ngayKH_, const std::string& sanBD_, const int& status_) {
     maChuyenBay_ = maCB_;
     mbCB_ = mbChuyenBay_;
     soHieuMayBay_ = soHieuMB_;
